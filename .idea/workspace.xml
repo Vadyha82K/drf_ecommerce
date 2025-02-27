@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Установил pillow для работы с полем ImageField, прописал его в requirements.txt">
+      <change afterPath="$PROJECT_DIR$/apps/accounts/managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740668184797</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Создал модель пользователя User">
+      <option name="closed" value="true" />
+      <created>1740670449148</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740670449149</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Прописал AUTH_USER_MODEL в settings.py">
+      <option name="closed" value="true" />
+      <created>1740670509151</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740670509151</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Установил pillow для работы с полем ImageField, прописал его в requirements.txt">
+      <option name="closed" value="true" />
+      <created>1740670637396</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740670637396</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +219,9 @@
     <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
     <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
     <MESSAGE value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
+    <MESSAGE value="Создал модель пользователя User" />
+    <MESSAGE value="Прописал AUTH_USER_MODEL в settings.py" />
+    <MESSAGE value="Установил pillow для работы с полем ImageField, прописал его в requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Установил pillow для работы с полем ImageField, прописал его в requirements.txt" />
   </component>
 </project>
