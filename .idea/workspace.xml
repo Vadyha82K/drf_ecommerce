@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740649145894</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel">
+      <option name="closed" value="true" />
+      <created>1740668184797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740668184797</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +194,7 @@
     <MESSAGE value="Создал файл менеджеров наших объектов" />
     <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
     <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
+    <MESSAGE value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
   </component>
 </project>
