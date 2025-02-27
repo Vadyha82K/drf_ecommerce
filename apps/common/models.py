@@ -1,8 +1,9 @@
 import uuid
 
 from django.db import models
+from django.utils import timezone
 
-from apps.common.managers import GetOrNoneManager
+from apps.common.managers import GetOrNoneManager, IsDeletedManager
 
 
 class BaseModel(models.Model):
@@ -23,3 +24,22 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+
+class IsDeletedModel(BaseModel):
+    is_deleted = models.BooleanField(default=False)
+    deleted_at = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        abstract = True
+
+    objects = IsDeletedManager()
+
+    def delete(self, *args, **kwargs):
+        """Мягкое удаление с помощью параметра is_deleted=True"""
+        self.is_deleted = True
+        self.deleted_at = timezone.now()
+        self.save(update_fields=["is_deleted", "deleted_at"])
+
+    def hard_delete(self, *args, **kwargs):
+        super().delete(*args, **kwargs)

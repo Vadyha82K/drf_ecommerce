@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/common/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740647430754</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager">
+      <option name="closed" value="true" />
+      <created>1740649145894</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740649145894</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +185,7 @@
     <MESSAGE value="Исправил файл apps.py приложения common" />
     <MESSAGE value="Создал файл менеджеров наших объектов" />
     <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
+    <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
   </component>
 </project>
