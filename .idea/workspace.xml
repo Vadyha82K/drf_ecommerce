@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал модель заказов клиентов Order в файле apps/profiles/models.py">
-      <change afterPath="$PROJECT_DIR$/apps/common/utils.py" afterDir="false" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал функцию generate_unique_code, генерирующую уникальный код">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740756560111</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Создал функцию generate_unique_code, генерирующую уникальный код">
+      <option name="closed" value="true" />
+      <created>1740757682767</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740757682767</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +294,7 @@
     <MESSAGE value="Создал модель Product, содержащую товары выставленные на продажу" />
     <MESSAGE value="Внес незначительные изменения в файл apps/shop/models.py" />
     <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
+    <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал функцию generate_unique_code, генерирующую уникальный код" />
   </component>
 </project>

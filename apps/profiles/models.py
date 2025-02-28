@@ -3,6 +3,7 @@ from django.db import models
 from apps.accounts.models import User
 from apps.common.models import BaseModel
 from apps.common.utils import generate_unique_code
+from apps.shop.models import Product
 
 
 class ShippingAddress(BaseModel):
@@ -98,3 +99,35 @@ class Order(BaseModel):
         if self._state.adding:
             self.tx_ref = generate_unique_code(Order, "tx_ref")
         super().save(*args, **kwargs)
+
+
+    class OrderItem(BaseModel):
+        """
+            Представляет товар в рамках заказа.
+
+            Attributes:
+                order (ForeignKey): Заказ, к которому относится данный товар;
+                product (ForeignKey): Продукт, связанный с данным товаром заказа;
+                quantity (int): Количество заказанного товара.
+        """
+
+        user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+        order = models.ForeignKey(
+            Order,
+            related_name="orderitems",
+            null=True,
+            on_delete=models.CASCADE,
+            blank=True,
+        )
+        product = models.ForeignKey(Product, on_delete=models.CASCADE)
+        quantity = models.PositiveIntegerField(default=1)
+
+        @property
+        def get_total(self):
+            return self.product.price_current * self.quantity
+
+        class Meta:
+            ordering = ["-created_at"]
+
+        def __str__(self):
+            return str(self.product.name)
