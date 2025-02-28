@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Внес незначительные изменения в файл apps/shop/models.py">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал модель заказов клиентов Order в файле apps/profiles/models.py">
+      <change afterPath="$PROJECT_DIR$/apps/common/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740736653226</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Создал модель заказов клиентов Order в файле apps/profiles/models.py">
+      <option name="closed" value="true" />
+      <created>1740756560111</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740756560111</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +285,7 @@
     <MESSAGE value="Создал модель продавца в seller" />
     <MESSAGE value="Создал модель Product, содержащую товары выставленные на продажу" />
     <MESSAGE value="Внес незначительные изменения в файл apps/shop/models.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес незначительные изменения в файл apps/shop/models.py" />
+    <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
   </component>
 </project>
