@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал функцию generate_unique_code, генерирующую уникальный код">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал модель OrderItem, которая представляет позицию товара в заказе">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/shop/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -257,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740757682767</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Создал модель OrderItem, которая представляет позицию товара в заказе">
+      <option name="closed" value="true" />
+      <created>1740761145773</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740761145773</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +304,7 @@
     <MESSAGE value="Внес незначительные изменения в файл apps/shop/models.py" />
     <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
     <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал функцию generate_unique_code, генерирующую уникальный код" />
+    <MESSAGE value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
   </component>
 </project>

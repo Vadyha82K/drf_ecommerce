@@ -25,7 +25,7 @@ class Category(BaseModel):
         return str(self.name)
 
     class Meta:
-        verbose_name_prutal = "Categories"
+        verbose_name_plural = "Categories"
 
 
 class Product(IsDeletedModel):
@@ -48,9 +48,9 @@ class Product(IsDeletedModel):
 
     seller = models.ForeignKey(Seller, on_delete=models.SET_NULL, related_name="products", null=True)
     name = models.CharField(max_length=100)
-    slug = AutoSlugField(populate_from="name", unique=True, index_db=True)
+    slug = AutoSlugField(populate_from="name", unique=True, db_index=True)
     desc = models.TextField()
-    price_old = models.DecimalField(max_digits=10, decimal_placec=2, null=True)
+    price_old = models.DecimalField(max_digits=10, decimal_places=2, null=True)
     price_current = models.DecimalField(max_digits=10, decimal_places=2)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name="products")
     in_stock = models.IntegerField(default=5)

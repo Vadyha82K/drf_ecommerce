@@ -86,7 +86,7 @@ class Order(BaseModel):
     # Информация об адресе доставки
     full_name = models.CharField(max_length=1000, null=True)
     email = models.EmailField(null=True)
-    phone = models.CharField(max_lengh=20, null=True)
+    phone = models.CharField(max_length=20, null=True)
     address = models.CharField(max_length=1000)
     city = models.CharField(max_length=200, null=True)
     country = models.CharField(max_length=100, null=True)
@@ -101,33 +101,33 @@ class Order(BaseModel):
         super().save(*args, **kwargs)
 
 
-    class OrderItem(BaseModel):
-        """
-            Представляет товар в рамках заказа.
+class OrderItem(BaseModel):
+    """
+        Представляет товар в рамках заказа.
 
-            Attributes:
-                order (ForeignKey): Заказ, к которому относится данный товар;
-                product (ForeignKey): Продукт, связанный с данным товаром заказа;
-                quantity (int): Количество заказанного товара.
-        """
+        Attributes:
+            order (ForeignKey): Заказ, к которому относится данный товар;
+            product (ForeignKey): Продукт, связанный с данным товаром заказа;
+            quantity (int): Количество заказанного товара.
+    """
 
-        user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-        order = models.ForeignKey(
-            Order,
-            related_name="orderitems",
-            null=True,
-            on_delete=models.CASCADE,
-            blank=True,
-        )
-        product = models.ForeignKey(Product, on_delete=models.CASCADE)
-        quantity = models.PositiveIntegerField(default=1)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    order = models.ForeignKey(
+        Order,
+        related_name="orderitems",
+        null=True,
+        on_delete=models.CASCADE,
+        blank=True,
+    )
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    quantity = models.PositiveIntegerField(default=1)
 
-        @property
-        def get_total(self):
-            return self.product.price_current * self.quantity
+    @property
+    def get_total(self):
+        return self.product.price_current * self.quantity
 
-        class Meta:
-            ordering = ["-created_at"]
+    class Meta:
+        ordering = ["-created_at"]
 
-        def __str__(self):
-            return str(self.product.name)
+    def __str__(self):
+        return str(self.product.name)
