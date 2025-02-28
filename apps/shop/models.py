@@ -37,13 +37,13 @@ class Product(IsDeletedModel):
         name (str): Название продукта;
         slug (str): slug, созданный на основе имени, используемого в URL-адресах;
         desc (str): Описание товара;
-        price_old (десятичная дробь): Первоначальная цена товара;
-        price_current (десятичная дробь): Текущая цена товара;
-        category (внешний ключ): категория, к которой относится товар;
+        price_old (Decimal): Первоначальная цена товара;
+        price_current (Decimal): Текущая цена товара;
+        category (ForeignKey): категория, к которой относится товар;
         in_stock (int): количество товара на складе;
-        image1 1 (поле изображения): Первое изображение продукта;
-        image1 2 (поле изображения): Второе изображение продукта;
-        image1 3 (поле изображения): третье изображение продукта.
+        image1 1 (ImageField): Первое изображение продукта;
+        image1 2 (ImageField): Второе изображение продукта;
+        image1 3 (ImageField): третье изображение продукта.
     """
 
     seller = models.ForeignKey(Seller, on_delete=models.SET_NULL, related_name="products", null=True)
