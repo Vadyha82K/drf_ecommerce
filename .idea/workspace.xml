@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API.">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741005698228</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Добавил параметры работы с JWT и, в частности, с Refresh токенами">
+      <option name="closed" value="true" />
+      <created>1741006154848</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1741006154848</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей.">
+      <option name="closed" value="true" />
+      <created>1741006846004</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1741006846004</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,8 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал файл менеджеров наших объектов" />
-    <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
     <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
     <MESSAGE value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
     <MESSAGE value="Создал модель пользователя User" />
@@ -377,6 +391,8 @@
     <MESSAGE value="Добавил пакет djangorestframework-simplejwt в  requirements.txt" />
     <MESSAGE value="Выполнил миграции" />
     <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
+    <MESSAGE value="Добавил параметры работы с JWT и, в частности, с Refresh токенами" />
+    <MESSAGE value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
   </component>
 </project>
