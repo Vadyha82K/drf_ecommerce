@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Исправил ошибки, провел миграции">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил два маршрута, для работы с drf_spectacular." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740762229114</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Установил пакет drf_spectacular. Прописал его в settings.py">
+      <option name="closed" value="true" />
+      <created>1740985415762</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740985415762</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Добавил два маршрута, для работы с drf_spectacular.">
+      <option name="closed" value="true" />
+      <created>1740985630971</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740985630971</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,8 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал проект core" />
-    <MESSAGE value="Создал файл requirements.txt" />
     <MESSAGE value="Установил DRF, добавил в INSTALLED_APPS файла setting.py и в requirements.txt" />
     <MESSAGE value="Создал приложения: accounts, profiles, sellers, shop и зарегистрировал их в settings.py" />
     <MESSAGE value="Внес правки в файлы apps.py приложений, изменив атрибут name" />
@@ -312,6 +324,8 @@
     <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
     <MESSAGE value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
     <MESSAGE value="Исправил ошибки, провел миграции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибки, провел миграции" />
+    <MESSAGE value="Установил пакет drf_spectacular. Прописал его в settings.py" />
+    <MESSAGE value="Добавил два маршрута, для работы с drf_spectacular." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил два маршрута, для работы с drf_spectacular." />
   </component>
 </project>
