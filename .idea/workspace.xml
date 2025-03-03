@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил два маршрута, для работы с drf_spectacular." />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI">
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740985630971</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI">
+      <option name="closed" value="true" />
+      <created>1740985771488</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740985771488</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +311,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Установил DRF, добавил в INSTALLED_APPS файла setting.py и в requirements.txt" />
     <MESSAGE value="Создал приложения: accounts, profiles, sellers, shop и зарегистрировал их в settings.py" />
     <MESSAGE value="Внес правки в файлы apps.py приложений, изменив атрибут name" />
     <MESSAGE value="Создал приложения common, в котором будет храниться общая логика" />
@@ -326,6 +335,7 @@
     <MESSAGE value="Исправил ошибки, провел миграции" />
     <MESSAGE value="Установил пакет drf_spectacular. Прописал его в settings.py" />
     <MESSAGE value="Добавил два маршрута, для работы с drf_spectacular." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил два маршрута, для работы с drf_spectacular." />
+    <MESSAGE value="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI" />
   </component>
 </project>
