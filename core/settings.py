@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+from datetime import timedelta
 from pathlib import Path
 
 from django.conf.global_settings import AUTH_USER_MODEL
@@ -149,4 +149,11 @@ SPECTACULAR_SETTINGS = {
     "TITLE": "My First API", # название проекта
     "VERSION": "0.0.1", # версия проекта
     "SERVE_INCLUDE_SCHEMA": False, # исключить эндпоинт /schema
+}
+
+SIMPLE_JWT = {
+    'ROTATE_REFRESH_TOKENS': True,
+    'BLACKLIST_AFTER_ROTATION': True,
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=7),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
 }

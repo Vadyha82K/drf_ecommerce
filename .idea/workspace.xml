@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Выполнил миграции" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741005470897</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API.">
+      <option name="closed" value="true" />
+      <created>1741005698228</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1741005698228</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Исправил файл apps.py приложения common" />
     <MESSAGE value="Создал файл менеджеров наших объектов" />
     <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
     <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
@@ -366,6 +376,7 @@
     <MESSAGE value="Установил пакет djangorestframework-simplejwt и добавил его в  settings.py" />
     <MESSAGE value="Добавил пакет djangorestframework-simplejwt в  requirements.txt" />
     <MESSAGE value="Выполнил миграции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнил миграции" />
+    <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
   </component>
 </project>
