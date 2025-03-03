@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'apps.sellers',
     'apps.shop',
     'apps.common',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал модель OrderItem, которая представляет позицию товара в заказе">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Исправил ошибки, провел миграции">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/shop/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740761145773</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Исправил ошибки, провел миграции">
+      <option name="closed" value="true" />
+      <created>1740762229114</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740762229114</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +311,7 @@
     <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
     <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
     <MESSAGE value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
+    <MESSAGE value="Исправил ошибки, провел миграции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибки, провел миграции" />
   </component>
 </project>
