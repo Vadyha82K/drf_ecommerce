@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="В settings.py добавил SPECTACULAR_SETTINGS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Выполнил миграции" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,7 +302,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740987668907</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Установил пакет djangorestframework-simplejwt и добавил его в  settings.py">
+      <option name="closed" value="true" />
+      <created>1741004799949</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1741004799949</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Добавил пакет djangorestframework-simplejwt в  requirements.txt">
+      <option name="closed" value="true" />
+      <created>1741004845370</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1741004845371</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Выполнил миграции">
+      <option name="closed" value="true" />
+      <created>1741005470897</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1741005470897</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,9 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Внес правки в файлы apps.py приложений, изменив атрибут name" />
-    <MESSAGE value="Создал приложения common, в котором будет храниться общая логика" />
-    <MESSAGE value="Добавил приложение common в INSTALLED_APPS файла setting.py" />
     <MESSAGE value="Исправил файл apps.py приложения common" />
     <MESSAGE value="Создал файл менеджеров наших объектов" />
     <MESSAGE value="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей" />
@@ -345,6 +363,9 @@
     <MESSAGE value="Добавил два маршрута, для работы с drf_spectacular." />
     <MESSAGE value="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI" />
     <MESSAGE value="В settings.py добавил SPECTACULAR_SETTINGS" />
-    <option name="LAST_COMMIT_MESSAGE" value="В settings.py добавил SPECTACULAR_SETTINGS" />
+    <MESSAGE value="Установил пакет djangorestframework-simplejwt и добавил его в  settings.py" />
+    <MESSAGE value="Добавил пакет djangorestframework-simplejwt в  requirements.txt" />
+    <MESSAGE value="Выполнил миграции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил миграции" />
   </component>
 </project>
