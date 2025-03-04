@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts">
-      <change afterPath="$PROJECT_DIR$/apps/accounts/urls.py" afterDir="false" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал маршрут папки конфигурации с маршрутами приложения accounts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +365,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741013750406</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Создал маршруты для представления RegisterAPIView и для JWT">
+      <option name="closed" value="true" />
+      <created>1741084134066</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1741084134066</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Связал маршрут папки конфигурации с маршрутами приложения accounts">
+      <option name="closed" value="true" />
+      <created>1741084253494</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1741084253494</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,8 +396,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
-    <MESSAGE value="Создал модель пользователя User" />
     <MESSAGE value="Прописал AUTH_USER_MODEL в settings.py" />
     <MESSAGE value="Установил pillow для работы с полем ImageField, прописал его в requirements.txt" />
     <MESSAGE value="Создал CustomUserManager в accounts, расширил стандартную функциональность класса BaseUserManager" />
@@ -401,6 +419,8 @@
     <MESSAGE value="Добавил параметры работы с JWT и, в частности, с Refresh токенами" />
     <MESSAGE value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
     <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
+    <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
+    <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
   </component>
 </project>
