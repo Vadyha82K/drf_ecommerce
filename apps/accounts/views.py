@@ -1,9 +1,8 @@
-from rest_framework import serializers
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework_simplejwt.views import TokenObtainPairView
 
-from apps.accounts.serializers import CreateUserSerializer
+from apps.accounts.serializers import CreateUserSerializer, MyTokenObtainPairSerializer
 
 
 class RegisterAPIView(APIView):
@@ -12,11 +11,12 @@ class RegisterAPIView(APIView):
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
-            user = serializer.save()
-            refresh = RefreshToken.for_user(user)
-            data = {
-                'refresh': str(refresh),
-                'access': str(refresh.access_token)
-            }
-            return Response(data, status=201)
-        return Response(serializers.errors, status=400)
+            serializer.save()
+            return Response({'message': "success"}, status=201)
+        return Response(serializer.errors, status=400)
+
+
+class MyTokenObtainPairView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer
+
+    # 4.8 второй шаг
