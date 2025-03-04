@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей.">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts">
+      <change afterPath="$PROJECT_DIR$/apps/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -353,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741006846004</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts">
+      <option name="closed" value="true" />
+      <created>1741013750406</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1741013750406</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager" />
     <MESSAGE value="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel" />
     <MESSAGE value="Создал модель пользователя User" />
     <MESSAGE value="Прописал AUTH_USER_MODEL в settings.py" />
@@ -393,6 +400,7 @@
     <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
     <MESSAGE value="Добавил параметры работы с JWT и, в частности, с Refresh токенами" />
     <MESSAGE value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
+    <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
   </component>
 </project>
