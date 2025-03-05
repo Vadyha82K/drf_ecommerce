@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Указал в settings.py, чтобы авторизация не сбрасывалась">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил декоратор @extend_schema, для модификации информации о представлениях">
+      <change beforePath="$PROJECT_DIR$/apps/profiles/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741168026318</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Добавил декоратор @extend_schema, для модификации информации о представлениях">
+      <option name="closed" value="true" />
+      <created>1741185896691</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1741185896691</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
     <MESSAGE value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
     <MESSAGE value="Исправил ошибки, провел миграции" />
     <MESSAGE value="Установил пакет drf_spectacular. Прописал его в settings.py" />
@@ -492,6 +495,7 @@
     <MESSAGE value="Создал маршрут к представлению ProfileView в profile.urls.py" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения profiles" />
     <MESSAGE value="Указал в settings.py, чтобы авторизация не сбрасывалась" />
-    <option name="LAST_COMMIT_MESSAGE" value="Указал в settings.py, чтобы авторизация не сбрасывалась" />
+    <MESSAGE value="Добавил декоратор @extend_schema, для модификации информации о представлениях" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил декоратор @extend_schema, для модификации информации о представлениях" />
   </component>
 </project>
