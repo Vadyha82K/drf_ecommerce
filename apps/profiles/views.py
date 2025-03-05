@@ -1,3 +1,4 @@
+from drf_spectacular.utils import extend_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -11,7 +12,16 @@ class ProfileView(APIView):
     """
     serializer_class = ProfileSerializer
 
+    tags = ["Profiles"]
 
+
+    @extend_schema(
+        summary="Retrieve Profile",
+        description="""
+                Этот endpoint позволяет пользователю получить доступ к своему профилю.
+            """,
+        tags=tags,
+    )
     def get(self, request):
         """
         Этот метод обрабатывает GET-запрос. Он получает данные текущего пользователя (request.user), сериализует их с
@@ -24,6 +34,14 @@ class ProfileView(APIView):
         return Response(data=serializer.data, status=200)
 
 
+    @extend_schema(
+        summary="Update Profile",
+        description="""
+                    Этот endpoint позволяет пользователю обновить свой профиль.
+                """,
+        tags=tags,
+        request={"multipart/form-data": serializer_class},
+    )
     def put(self, request):
         """
         Этот метод обрабатывает PUT-запрос. Он получает данные текущего пользователя (request.user), сериализует данные
@@ -42,7 +60,13 @@ class ProfileView(APIView):
 
         return Response(data=serializer.data)
 
-
+    @extend_schema(
+        summary="Deactivate account",
+        description="""
+                Этот endpoint позволяет пользователю деактивировать свою учетную запись.
+            """,
+        tags=tags,
+    )
     def delete(self, request):
         """
         Этот метод обрабатывает DELETE-запрос. Он деактивирует учетную запись пользователя, устанавливая
