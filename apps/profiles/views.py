@@ -118,3 +118,74 @@ class ShippingAddressesView(APIView):
         serializer = self.serializer_class(shipping_address)
 
         return Response(data=serializer.data, status=201)
+
+
+class ShippingAddressViewID(APIView):
+    """
+    Класс будет обрабатывать GET, PUT и DELETE запросы для конкретного адреса доставки, идентифицируемого по ID.
+    """
+    serializer_class = ShippingAddressSerializer
+
+
+    def get_object(self, user, shipping_id):
+        shipping_address = ShippingAddress.objects.get_or_none(user=user, id=shipping_id)
+        return shipping_address
+
+
+    @extend_schema(
+        summary="Shipping Address Fetch ID",
+        description="""
+                Этот endpoint возвращает один адрес доставки, связанный с пользователем.
+            """,
+        tags=tags,
+    )
+    def get(self, request, *args, **kwargs):
+        user = request.user
+        shipping_address = self.get_object(user, kwargs["id"])
+        if not shipping_address:
+            return Response(data={"message": "Адреса доставки не существует!"}, status=404)
+
+        serializer = self.serializer_class(shipping_address)
+
+        return Response(data=serializer.data)
+
+
+    @extend_schema(
+        summary="Update Shipping Address ID",
+        description="""
+                Этот endpoint позволяет пользователю обновить свой адрес доставки.
+            """,
+        tags=tags,
+    )
+    def put(self, request, *args, **kwargs):
+        user = request.user
+        shipping_address = self.get_object(user, kwargs["id"])
+        if not shipping_address:
+            return Response(data={"message": "Адреса доставки не существует!"}, status=404)
+
+        serializer = self.serializer_class(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        data = serializer.validated_data
+        shipping_address = set_dict_attr(shipping_address, data)
+        shipping_address.save()
+        serializer = self.serializer_class(shipping_address)
+
+        return Response(data=serializer.data, status=200)
+
+
+    @extend_schema(
+        summary="Delete Shipping Address ID",
+        description="""
+                Этот endpoint позволяет пользователю удалить свой адрес доставки.
+            """,
+        tags=tags,
+    )
+    def delete(self, request, *args, **kwargs):
+        user = request.user
+        shipping_address = self.get_object(user, kwargs["id"])
+        if not shipping_address:
+            return Response(data={"message": "Shipping Address does not exist!"}, status=404)
+
+        shipping_address.delete()
+
+        return Response(data={"message": "Адрес доставки успешно удален"})
