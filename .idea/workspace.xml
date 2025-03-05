@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал представление ProfileView, которое служит для управления профилем пользователя. Оно обрабатывает HTTP-запросы GET, PUT и DELETE">
-      <change beforePath="$PROJECT_DIR$/apps/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -416,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741166989264</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически">
+      <option name="closed" value="true" />
+      <created>1741167345062</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1741167345062</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал модель продавца в seller" />
     <MESSAGE value="Создал модель Product, содержащую товары выставленные на продажу" />
     <MESSAGE value="Внес незначительные изменения в файл apps/shop/models.py" />
     <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
@@ -456,6 +461,7 @@
     <MESSAGE value="Поменял название маршрута и внес мелкие изменения" />
     <MESSAGE value="Создал сериализатор ProfileSerializer в приложении profile, который предназначен для обработки данных профиля пользователя" />
     <MESSAGE value="Создал представление ProfileView, которое служит для управления профилем пользователя. Оно обрабатывает HTTP-запросы GET, PUT и DELETE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал представление ProfileView, которое служит для управления профилем пользователя. Оно обрабатывает HTTP-запросы GET, PUT и DELETE" />
+    <MESSAGE value="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
   </component>
 </project>
