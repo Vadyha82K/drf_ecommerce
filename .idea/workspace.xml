@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал маршрут папки конфигурации с маршрутами приложения accounts">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Поменял название маршрута и внес мелкие изменения">
+      <change afterPath="$PROJECT_DIR$/apps/profiles/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -381,7 +377,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741084253494</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Добавил класс MyTokenObtainPairSerializer, который служит для добавления данных в payload токена, который создается с помощью TokenObtainPairView">
+      <option name="closed" value="true" />
+      <created>1741110177944</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1741110177944</updated>
+    </task>
+    <task id="LOCAL-00040" summary="В представлениях пределал класс RegisterAPIView&#10;Добавил класс MyTokenObtainPairView">
+      <option name="closed" value="true" />
+      <created>1741110233137</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1741110233137</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Поменял название маршрута и внес мелкие изменения">
+      <option name="closed" value="true" />
+      <created>1741110263790</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741110263790</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,9 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Прописал AUTH_USER_MODEL в settings.py" />
-    <MESSAGE value="Установил pillow для работы с полем ImageField, прописал его в requirements.txt" />
-    <MESSAGE value="Создал CustomUserManager в accounts, расширил стандартную функциональность класса BaseUserManager" />
     <MESSAGE value="Создал класс ShippingAddress, который представляет собой адрес доставки, связанный с пользователем" />
     <MESSAGE value="Установил библиотеку django-autoslug, для автоматической генерации и управлением slug-полями" />
     <MESSAGE value="Создал модель продавца в seller" />
@@ -421,6 +438,9 @@
     <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
     <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
+    <MESSAGE value="Добавил класс MyTokenObtainPairSerializer, который служит для добавления данных в payload токена, который создается с помощью TokenObtainPairView" />
+    <MESSAGE value="В представлениях пределал класс RegisterAPIView&#10;Добавил класс MyTokenObtainPairView" />
+    <MESSAGE value="Поменял название маршрута и внес мелкие изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поменял название маршрута и внес мелкие изменения" />
   </component>
 </project>
