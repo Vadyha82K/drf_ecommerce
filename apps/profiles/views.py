@@ -3,7 +3,11 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from apps.common.utils import set_dict_attr
-from apps.profiles.serializers import ProfileSerializer
+from apps.profiles.models import ShippingAddress
+from apps.profiles.serializers import ProfileSerializer, ShippingAddressSerializer
+
+
+tags = ["Profiles"]
 
 
 class ProfileView(APIView):
@@ -11,8 +15,6 @@ class ProfileView(APIView):
     Представление служит для управления профилем пользователя. Оно обрабатывает HTTP-запросы GET, PUT и DELETE:
     """
     serializer_class = ProfileSerializer
-
-    tags = ["Profiles"]
 
 
     @extend_schema(
@@ -60,6 +62,7 @@ class ProfileView(APIView):
 
         return Response(data=serializer.data)
 
+
     @extend_schema(
         summary="Deactivate account",
         description="""
@@ -76,4 +79,42 @@ class ProfileView(APIView):
         user = request.user
         user.is_active = False
         user.save()
+
         return Response(data={"message": "User Account Deactivated"})
+
+
+    class ShippingAddressesView(APIView):
+        serializer_class = ShippingAddressSerializer
+
+        @extend_schema(
+            summary="Shipping Addresses Fetch",
+            description="""
+                    Этот endpoint возвращает все адреса доставки, связанные с пользователем.
+                """,
+            tags=tags,
+        )
+        def get(self, request, *args, **kwargs):
+            user = request.user
+            shipping_addresses = ShippingAddress.objects.filter(user=user)
+
+            serializer = self.serializer_class(shipping_addresses, many=True)
+
+            return Response(data=serializer.data)
+
+
+        @extend_schema(
+            summary="Create Shipping Address",
+            description="""
+                    Этот endpoint позволяет пользователю создать адрес доставки.
+                """,
+            tags=tags,
+        )
+        def post(self, request, *args, **kwargs):
+            user = request.user
+            serializer = self.serializer_class(data=request.data)
+            serializer.is_valid(raise_exception=True)
+            data = serializer.validated_data
+            shipping_address, _ = ShippingAddress.objects.get_or_create(user=user, **data)
+            serializer = self.serializer_class(shipping_address)
+
+            return Response(data=serializer.data, status=201)
