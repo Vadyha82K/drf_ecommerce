@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил фото пользователя">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал представление для работы с адресами" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,14 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Создал файл requirements.txt">
-      <option name="closed" value="true" />
-      <created>1740580920919</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740580920919</updated>
     </task>
     <task id="LOCAL-00003" summary="Установил DRF, добавил в INSTALLED_APPS файла setting.py и в requirements.txt">
       <option name="closed" value="true" />
@@ -465,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741187067226</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Создал представление для работы с адресами">
+      <option name="closed" value="true" />
+      <created>1741190322888</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1741190322888</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Установил пакет drf_spectacular. Прописал его в settings.py" />
     <MESSAGE value="Добавил два маршрута, для работы с drf_spectacular." />
     <MESSAGE value="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI" />
     <MESSAGE value="В settings.py добавил SPECTACULAR_SETTINGS" />
@@ -505,6 +501,7 @@
     <MESSAGE value="Добавил декоратор @extend_schema, для модификации информации о представлениях" />
     <MESSAGE value="Добавил сериализатор ShippingAddressSerializer (apps/profile) для работы с адресами" />
     <MESSAGE value="Добавил фото пользователя" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил фото пользователя" />
+    <MESSAGE value="Создал представление для работы с адресами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал представление для работы с адресами" />
   </component>
 </project>
