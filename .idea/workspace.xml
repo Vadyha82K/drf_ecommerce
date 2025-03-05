@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал представление для работы с адресами" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил маршрут к ShippingAddressesView">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Установил DRF, добавил в INSTALLED_APPS файла setting.py и в requirements.txt">
-      <option name="closed" value="true" />
-      <created>1740582759861</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740582759861</updated>
     </task>
     <task id="LOCAL-00004" summary="Создал приложения: accounts, profiles, sellers, shop и зарегистрировал их в settings.py">
       <option name="closed" value="true" />
@@ -462,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741190322888</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Добавил маршрут к ShippingAddressesView">
+      <option name="closed" value="true" />
+      <created>1741190530127</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1741190530127</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил два маршрута, для работы с drf_spectacular." />
     <MESSAGE value="В settings.py добавил настройку, которая будет использоваться для создания схем OpenAPI" />
     <MESSAGE value="В settings.py добавил SPECTACULAR_SETTINGS" />
     <MESSAGE value="Установил пакет djangorestframework-simplejwt и добавил его в  settings.py" />
@@ -502,6 +504,7 @@
     <MESSAGE value="Добавил сериализатор ShippingAddressSerializer (apps/profile) для работы с адресами" />
     <MESSAGE value="Добавил фото пользователя" />
     <MESSAGE value="Создал представление для работы с адресами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал представление для работы с адресами" />
+    <MESSAGE value="Добавил маршрут к ShippingAddressesView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил маршрут к ShippingAddressesView" />
   </component>
 </project>
