@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал маршрут папки конфигурации с маршрутами приложения profiles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -422,7 +422,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741167345062</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Создал маршрут к представлению ProfileView в profile.urls.py">
+      <option name="closed" value="true" />
+      <created>1741167778692</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1741167778692</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Связал маршрут папки конфигурации с маршрутами приложения profiles">
+      <option name="closed" value="true" />
+      <created>1741167901194</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1741167901194</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,8 +453,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал модель Product, содержащую товары выставленные на продажу" />
-    <MESSAGE value="Внес незначительные изменения в файл apps/shop/models.py" />
     <MESSAGE value="Создал модель заказов клиентов Order в файле apps/profiles/models.py" />
     <MESSAGE value="Создал функцию generate_unique_code, генерирующую уникальный код" />
     <MESSAGE value="Создал модель OrderItem, которая представляет позицию товара в заказе" />
@@ -462,6 +476,8 @@
     <MESSAGE value="Создал сериализатор ProfileSerializer в приложении profile, который предназначен для обработки данных профиля пользователя" />
     <MESSAGE value="Создал представление ProfileView, которое служит для управления профилем пользователя. Оно обрабатывает HTTP-запросы GET, PUT и DELETE" />
     <MESSAGE value="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал функцию set_dict_attr в common/utils.py, которая позволяет обновлять атрибуты объекта динамически" />
+    <MESSAGE value="Создал маршрут к представлению ProfileView в profile.urls.py" />
+    <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения profiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связал маршрут папки конфигурации с маршрутами приложения profiles" />
   </component>
 </project>
