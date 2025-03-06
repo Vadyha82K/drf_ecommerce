@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал сериализатор продавца">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sellers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sellers/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал маршрут к представлению SellersView" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,22 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Создал файл менеджеров наших объектов">
-      <option name="closed" value="true" />
-      <created>1740645025881</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1740645025881</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Создал базовый класс модели (BaseModel), включвающий общие поля и методы для всех можелей">
-      <option name="closed" value="true" />
-      <created>1740647430754</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1740647430754</updated>
     </task>
     <task id="LOCAL-00011" summary="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager">
       <option name="closed" value="true" />
@@ -465,7 +446,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741245159627</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Создал представление для создания или обновления данных продавца">
+      <option name="closed" value="true" />
+      <created>1741250076499</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250076499</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Создал маршрут к представлению SellersView">
+      <option name="closed" value="true" />
+      <created>1741250147414</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250147414</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,8 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
-    <MESSAGE value="Добавил параметры работы с JWT и, в частности, с Refresh токенами" />
     <MESSAGE value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
     <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
     <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
@@ -505,6 +500,8 @@
     <MESSAGE value="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py" />
     <MESSAGE value="Мелкие исправления" />
     <MESSAGE value="Создал сериализатор продавца" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал сериализатор продавца" />
+    <MESSAGE value="Создал представление для создания или обновления данных продавца" />
+    <MESSAGE value="Создал маршрут к представлению SellersView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал маршрут к представлению SellersView" />
   </component>
 </project>
