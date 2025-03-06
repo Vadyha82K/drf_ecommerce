@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Мелкие исправления">
+      <change afterPath="$PROJECT_DIR$/apps/sellers/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -72,14 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Добавил приложение common в INSTALLED_APPS файла setting.py">
-      <option name="closed" value="true" />
-      <created>1740586872709</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1740586872709</updated>
     </task>
     <task id="LOCAL-00008" summary="Исправил файл apps.py приложения common">
       <option name="closed" value="true" />
@@ -465,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741195427618</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Мелкие исправления">
+      <option name="closed" value="true" />
+      <created>1741244408777</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1741244408777</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил пакет djangorestframework-simplejwt в  requirements.txt" />
     <MESSAGE value="Выполнил миграции" />
     <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
     <MESSAGE value="Добавил параметры работы с JWT и, в частности, с Refresh токенами" />
@@ -505,6 +504,7 @@
     <MESSAGE value="Добавил адрес доставки пользователю" />
     <MESSAGE value="Добавил класс ShippingAddressViewID который будет обрабатывать GET, PUT и DELETE запросы для конкретного адреса доставки, идентифицируемого по ID." />
     <MESSAGE value="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py" />
+    <MESSAGE value="Мелкие исправления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Мелкие исправления" />
   </component>
 </project>
