@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Добавил адрес доставки пользователю">
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/profiles/views.py" afterDir="false" />
     </list>
@@ -72,22 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Внес правки в файлы apps.py приложений, изменив атрибут name">
-      <option name="closed" value="true" />
-      <created>1740585530373</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740585530373</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Создал приложения common, в котором будет храниться общая логика">
-      <option name="closed" value="true" />
-      <created>1740586812967</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1740586812967</updated>
     </task>
     <task id="LOCAL-00007" summary="Добавил приложение common в INSTALLED_APPS файла setting.py">
       <option name="closed" value="true" />
@@ -465,7 +449,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741193071144</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Добавил класс ShippingAddressViewID который будет обрабатывать GET, PUT и DELETE запросы для конкретного адреса доставки, идентифицируемого по ID.">
+      <option name="closed" value="true" />
+      <created>1741195369372</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1741195369372</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py">
+      <option name="closed" value="true" />
+      <created>1741195427618</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1741195427618</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,8 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="В settings.py добавил SPECTACULAR_SETTINGS" />
-    <MESSAGE value="Установил пакет djangorestframework-simplejwt и добавил его в  settings.py" />
     <MESSAGE value="Добавил пакет djangorestframework-simplejwt в  requirements.txt" />
     <MESSAGE value="Выполнил миграции" />
     <MESSAGE value="Подключил в settings.py использование JWTAuthentication из библиотеки djangorestframework-simplejwt в качестве класса аутентификации по умолчанию для всех эндпоинтов API." />
@@ -505,6 +503,8 @@
     <MESSAGE value="Создал представление для работы с адресами" />
     <MESSAGE value="Добавил маршрут к ShippingAddressesView" />
     <MESSAGE value="Добавил адрес доставки пользователю" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил адрес доставки пользователю" />
+    <MESSAGE value="Добавил класс ShippingAddressViewID который будет обрабатывать GET, PUT и DELETE запросы для конкретного адреса доставки, идентифицируемого по ID." />
+    <MESSAGE value="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связал редставление ShippingAddressViewID и маршрут в файле apps/profiles/urls.py" />
   </component>
 </project>

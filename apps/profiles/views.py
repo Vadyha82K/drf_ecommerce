@@ -127,6 +127,7 @@ class ShippingAddressViewID(APIView):
     serializer_class = ShippingAddressSerializer
 
 
+    # @staticmethod
     def get_object(self, user, shipping_id):
         shipping_address = ShippingAddress.objects.get_or_none(user=user, id=shipping_id)
         return shipping_address
