@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал запись в базе данных приложения Seller" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал сериализатор для категорий в приложении shop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/shop/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Создал модель пользователя User">
-      <option name="closed" value="true" />
-      <created>1740670449148</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1740670449149</updated>
     </task>
     <task id="LOCAL-00014" summary="Прописал AUTH_USER_MODEL в settings.py">
       <option name="closed" value="true" />
@@ -462,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741250559261</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Создал сериализатор для категорий в приложении shop">
+      <option name="closed" value="true" />
+      <created>1741250991580</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250991580</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
     <MESSAGE value="Добавил класс MyTokenObtainPairSerializer, который служит для добавления данных в payload токена, который создается с помощью TokenObtainPairView" />
     <MESSAGE value="В представлениях пределал класс RegisterAPIView&#10;Добавил класс MyTokenObtainPairView" />
@@ -502,6 +504,7 @@
     <MESSAGE value="Создал маршрут к представлению SellersView" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
     <MESSAGE value="Создал запись в базе данных приложения Seller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал запись в базе данных приложения Seller" />
+    <MESSAGE value="Создал сериализатор для категорий в приложении shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал сериализатор для категорий в приложении shop" />
   </component>
 </project>
