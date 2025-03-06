@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал маршрут к представлению SellersView" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Добавил менеджер мягкого и жесткого удаления объектов IsDeletedManager">
-      <option name="closed" value="true" />
-      <created>1740649145894</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1740649145894</updated>
     </task>
     <task id="LOCAL-00012" summary="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel">
       <option name="closed" value="true" />
@@ -462,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741250147414</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Связал маршрут папки конфигурации с маршрутами приложения Sellers">
+      <option name="closed" value="true" />
+      <created>1741250216281</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250216281</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал сериализатор модели User, который будет отвечать за регистрацию пользователей." />
     <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
     <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
@@ -502,6 +501,7 @@
     <MESSAGE value="Создал сериализатор продавца" />
     <MESSAGE value="Создал представление для создания или обновления данных продавца" />
     <MESSAGE value="Создал маршрут к представлению SellersView" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал маршрут к представлению SellersView" />
+    <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
   </component>
 </project>
