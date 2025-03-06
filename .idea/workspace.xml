@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
+    <list default="true" id="26e36191-d5a7-49c7-8e9d-0fa31b278e44" name="Changes" comment="Создал запись в базе данных приложения Seller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740579944000</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Добавил модель мягкого и жесткого удаления объектов IsDeletedModel">
-      <option name="closed" value="true" />
-      <created>1740668184797</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1740668184797</updated>
     </task>
     <task id="LOCAL-00013" summary="Создал модель пользователя User">
       <option name="closed" value="true" />
@@ -462,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741250216281</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Создал запись в базе данных приложения Seller">
+      <option name="closed" value="true" />
+      <created>1741250559261</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250559261</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал представления RegisterAPIView для регистрации пользователей, в приложении accounts" />
     <MESSAGE value="Создал маршруты для представления RegisterAPIView и для JWT" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения accounts" />
     <MESSAGE value="Добавил класс MyTokenObtainPairSerializer, который служит для добавления данных в payload токена, который создается с помощью TokenObtainPairView" />
@@ -502,6 +501,7 @@
     <MESSAGE value="Создал представление для создания или обновления данных продавца" />
     <MESSAGE value="Создал маршрут к представлению SellersView" />
     <MESSAGE value="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Связал маршрут папки конфигурации с маршрутами приложения Sellers" />
+    <MESSAGE value="Создал запись в базе данных приложения Seller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал запись в базе данных приложения Seller" />
   </component>
 </project>
